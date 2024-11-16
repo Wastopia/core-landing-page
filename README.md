@@ -1,4 +1,4 @@
-<img src="https://github.com/Wastopia/Waste2Earn-Assets/blob/main/W2EN.svg" alt="Bean logo" align="right" width="120" />
+<img src="https://github.com/Wastopia/Waste2Earn-Assets/blob/main/w2e.svg" alt="W2EN-logo" align="right" width="120" />
 
 # Waste2Earn Landing Page
 
