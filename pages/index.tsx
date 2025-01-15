@@ -96,11 +96,11 @@ const Home: NextPage<BlogProps> = ({ allPostsData, activeProposals }) => {
                 </Button>
               </a>
             </div>
-            <div className="md:flex md:flex-row md:space-y-0 space-y-2 md:space-x-2 items-stretch">
+            <div className="md:flex md:flex-row md:space-y-0 space-y-2 md:space-x-2 items-stretch text-black">
               <div className="flex-1">
-                <Link href="/blog/beanstalk-one-year-anniversary">
+                <Link href="/blog/waste-token">
                   <Button className="align-flex-start" icon={<></>}>
-                    Waste2Earn $W2EN Token Launching
+                    Waste2Earn $Waste Token Launching
                   </Button>
                 </Link>
               </div>
@@ -117,8 +117,8 @@ const Home: NextPage<BlogProps> = ({ allPostsData, activeProposals }) => {
         {/**
           * Section: Learn
           */}
-        <div className="space-y-4">
-          <div className="flex justify-between items-center">
+        <div className="space-y-4 text-black">
+          <div className="flex justify-between items-center text-white">
             <h2 className="text-3xl font-normal">Learn</h2>
             <a href={`https://waste2earn.xyz`}><p className="text font-normal mr-4 text-blue-600">More &rarr;</p></a>
           </div>

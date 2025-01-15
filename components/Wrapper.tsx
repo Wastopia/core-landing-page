@@ -14,12 +14,12 @@ const Wrapper : FC<WrapperProps> = ({
 }) => (
   // Side image variant
   variant === "farm" ? (
-    <div className="flex flex-row">
+    <div className="flex flex-row bg-gradient-to-br from-black via-green-900 to-blue-900 text-white">
       <div className={styles.TextContainer}>
         <div className="max-w-[720px] space-y-24 lg:pb-12">
           {/* Header */}
-          <div>
-            <Link href="/"><a><img src="/logo.svg" className="md:h-13 h-13" /></a></Link>
+          <div className="flex justify-center">
+            <Link href="/"><a><img src="/logo-w2e.png" className="md:h-15 h-15 flex justify-center" /></a></Link>
           </div>
           {/* Content */}
           {children}
@@ -42,7 +42,7 @@ const Wrapper : FC<WrapperProps> = ({
           {/* Header */}
           <div className="flex flex-row items-center">
             <div className="flex-1">
-              <Link href="/"><a><img src="/logo.svg" className="h-10" /></a></Link>
+              <Link href="/"><a><img src="/logo-w2e.svg" className="h-10" /></a></Link>
             </div>
             <Link href="/blog">
               <a className="inline-block px-4 py-2 text-md mx-2">

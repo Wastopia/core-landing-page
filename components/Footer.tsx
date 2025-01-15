@@ -1,6 +1,6 @@
 const Footer = () => (
   <footer className="my-12">
-    <div className="flex flex-row flex-wrap justify-center space-x-8 text-gray-500">
+    <div className="flex flex-row flex-wrap justify-center space-x-8 text-stone-400">
       <a href="https://waste2earn.gitbook.io/waste2earn-documentation/" target="_blank" rel="noreferrer">
         Docs
       </a>
@@ -10,12 +10,10 @@ const Footer = () => (
       <a href="https://discord.gg/waste2earn" target="_blank" rel="noreferrer">
         Discord
       </a>
-      <a href="https://twitter.com/waste2earn" target="_blank" rel="noreferrer">
+      <a href="https://x.com/waste2earn" target="_blank" rel="noreferrer">
         Twitter
       </a>
-      {/* <a href="https://immunefi.com/bounty/beanstalk" target="_blank" rel="noreferrer">
-        Bug Bounty
-      </a> */}
+    
       <a href="https://github.com/wastopia" target="_blank" rel="noreferrer" className="md:inline-block hidden">
         GitHub
       </a>
